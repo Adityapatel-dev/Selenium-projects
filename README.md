@@ -3,19 +3,6 @@
 
 This repository contains automation scripts using **Selenium WebDriver** to test different web applications. Each project is designed to cover key functionalities such as login, registration, and transaction validation across multiple sites.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Projects](#projects)
-  - [DemoWebShop](#demowebshop)
-  - [Orange HRM](#orange-hrm)
-  - [ParaBank](#parabank)
-  - [SwagLabs](#swaglabs)
-  - [DemoBlaze](#demoblaze)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
 
 ## Project Overview
 
