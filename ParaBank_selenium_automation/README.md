@@ -1,102 +1,78 @@
-<!-- PROJECT HEADER -->
-<p align="center">
-  <!--PROJECT TITLE AND DESCRIPTION -->
- <h1 align="center">Parabank Online Web Application (Data-Driven with Cucumber)</h1> 
 
+
+<p align="center">
+  <h1 align="center">Parabank Online Web Application (Data-Driven with Cucumber)</h1>
   <p align="center">
-    A web automation project to automate testing process of Para Bank Web Application built using Selenium, TestNG and Cucumber in Java.
+    A web automation project automating the testing process of the Para Bank web application using Selenium, TestNG, and Cucumber in Java.
     <br /><br/>
-    <a href="https://www.linkedin.com/in/lavatech-technology-81aa6a14b/">
+    <a href="https://www.linkedin.com/in/adityapatel98/">
         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"
-            alt="follow on LinkedIn"></a>
-    <a href="">
-        <img src="https://img.shields.io/twitter/follow/_?style=for-the-badge&logo=twitter"
-            alt="follow on LinkedIn"></a>
+            alt="LinkedIn"></a>
+    <a href="https://github.com/Adityapatel-dev">
+        <img src="https://img.shields.io/github/followers/adityapatel-dev?style=for-the-badge&logo=github"
+            alt="GitHub"></a>
   </p>
 </p>
 <hr>
 
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
-In this automation exercise, you'll automate core functionalities of the [Parabank online banking application](https://parabank.parasoft.com/parabank/index.htm) using Selenium, TestNG, and Cucumber with Data-Driven Testing. The key test scenarios include:
 
-* Register a New Account: Automate the user registration process by filling out dynamic data (like name, address, and credentials) using data-driven testing from Cucumber's Scenario Outline. This allows testing registration with multiple sets of user data.
-* Log in to the Application: Log in with different sets of credentials to validate both successful and unsuccessful login attempts. Use data-driven testing to verify login functionality for multiple users.
-* Create a New Savings Account: Once logged in, automate the creation of a savings account.
-* Transfer Amount Between Accounts: Automate the process of transferring funds between accounts.
+In this project, we automate essential functions of the [Parabank online banking application](https://parabank.parasoft.com/parabank/index.htm) using Selenium, TestNG, and Cucumber, focusing on:
+
+- **Register a New Account**: Automates the process using data-driven testing with multiple user data sets.
+- **Login to Application**: Validates login functionality with varied credentials.
+- **Create a New Savings Account**: Automates the account creation process.
+- **Transfer Amount Between Accounts**: Transfers funds between accounts using automated scripts.
 
 ![Automation Demonstration](./parabank.gif)
 
 ### Built With
-* [Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) as programming language
-* [Maven](https://maven.apache.org/) for Package Management and Build Automation
-* [Selenium](https://www.selenium.dev/) for Web Automation
-* [TestNG](https://testng.org/) for Java testing framework that supports annotations, parallel execution, and detailed reporting for efficient test automation.
-* [Cucumber](https://cucumber.io/docs/cucumber/) for writing BDD-style tests in Gherkin syntax.
 
-<!-- GETTING STARTED -->
+- **Java 8**
+- **Maven**
+- **Selenium**
+- **TestNG**
+- **Cucumber**
+
 ## Getting Started
 
 ### Prerequisites
-  Basic understanding of Java with Maven, Selenium, TestNG and Cucumber.
 
-### Running the project
-Steps are listed below to get this project up and running in your development environment.
+- Basic knowledge of Java, Maven, Selenium, TestNG, and Cucumber.
 
-* Setup Java with JDK 1.8. For reference: Use this official [Tutorial](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm)
+### Running the Project
 
-* Setup Maven. Follow this link: [Maven Setup](https://maven.apache.org/install.html)
+1. **Install Java JDK 1.8** ([Guide](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm)).
+2. **Setup Maven** ([Install](https://maven.apache.org/install.html)).
+3. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Adityapatel-dev/Selenium-projects.git
+    ```
+4. **Import the Project** in **Eclipse** via **"File -> Import -> Maven -> Existing Maven Project"**.
+5. **Build and Install Dependencies**:
+    ```bash
+    mvn clean install
+    ```
+6. **Execute Tests**:
+    ```bash
+    mvn clean test
+    ```
+7. **Package into JAR** (Optional):
+    ```bash
+    mvn clean package
+    ```
 
-* Clone this repository in your target folder.
-```
-git clone https://github.com/lavatech321/ParaBank_selenium_automation.git
-```
+### TestNG Execution
 
-* Open _parabank.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _parabank.testautomation_ folder. 
-  
-Optionally, run maven build command if you don't see "Maven Dependencies" folder:
-
-```
-mvn clean install
-```
-
-You can also right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
-
-* Open _swaglab.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _swaglab.testautomation_ folder. 
-  
-* Execute the project using below maven command:
-
-```
-mvn clean test
-```
-
-* Optionally, after making any changes to the repository, you can package the code into a jar file:
-  
-```
-mvn clean package
-```
-  
-_Note: I have used JAR for packaging. If you want to build into the jar file, change the `<packaging>` inside pom.xml file to war._
-
-```
- <packaging>jar</packaging>
-```
-
-Congrats !!! You are now able to run the project in your own development environment.
-
-* You can run this project as _TestNG Suite_ by right clicking the project and select "Run As -> TestNG Suite".
-
-_Note: I have place *testng.xml* file under src/test/resources folder._
+You can also run the project as a **TestNG Suite** in **Eclipse**.
 
 ## Authors
 
-* **Lavatech Technology** - *Initial work* - [Yogita Soni](https://github.com/lavatech321)
+- **Aditya Lalitkumar Patel** - [GitHub](https://github.com/Adityapatel-dev)
 
 ## Contact
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/lavatech-technology-81aa6a14b/
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555  
+[linkedin-url]: https://www.linkedin.com/in/adityapatel98/
