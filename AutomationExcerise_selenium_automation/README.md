@@ -1,95 +1,69 @@
-<!-- PROJECT HEADER -->
 <p align="center">
-  <!--PROJECT TITLE AND DESCRIPTION -->
- <h1 align="center">Automation of AutomationExcerise Web Application Using Selenium and TestNG</h1>
-
+  <h1 align="center">Automation of AutomationExercise Web Application Using Selenium and TestNG</h1>
   <p align="center">
-    A web automation project to automate testing process Online Store built using Selenium & TestNG in Java.
+    A web automation project automating testing processes for the Online Store using Selenium & TestNG in Java.
     <br /><br/>
-    <a href="https://www.linkedin.com/in/lavatech-technology-81aa6a14b/">
+    <a href="https://www.linkedin.com/in/adityapatel98/">
         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"
             alt="follow on LinkedIn"></a>
-    <a href="add your twitter link here">
-        <img src="https://img.shields.io/twitter/follow/_?style=for-the-badge&logo=twitter"
-            alt="follow on LinkedIn"></a>
-
+    <a href="https://github.com/Adityapatel-dev">
+        <img src="https://img.shields.io/github/followers/adityapatel-dev?style=for-the-badge&logo=github"
+            alt="GitHub"></a>
   </p>
 </p>
 <hr>
 
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
-The objective of this project is to automate key functionalities of [AutomationExcerise](https://automationexercise.com/) web application using Selenium WebDriver integrated with TestNG for test management. The project covers automating user signup, login, adding products to the cart, placing an order and downloading the invoice. TestNG is used for organizing and running test cases efficiently, generating detailed reports, and handling assertions for validating each functionality.
+
+This project aims to automate the key functionalities of the [AutomationExercise](https://automationexercise.com/) web application using **Selenium WebDriver** and **TestNG**. It includes automating features like user signup, login, adding products to the cart, placing orders, and generating invoices. **TestNG** organizes test cases, handles assertions, and generates detailed reports for efficient test management.
 
 ![Automation Demonstration](./automation.gif)
 
 ### Built With
-* [Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) as programming language
-* [Maven](https://maven.apache.org/) for Package Management and Build Automation
-* [Selenium](https://www.selenium.dev/) for Web Automation
-* [TestNG](https://testng.org/) for Java testing framework that supports annotations, parallel execution, and detailed reporting for efficient test automation.
 
-<!-- GETTING STARTED -->
+- **Java 8**
+- **Maven** for build automation
+- **Selenium** for browser automation
+- **TestNG** for test management and reporting
+
 ## Getting Started
 
 ### Prerequisites
-  Basic understanding of Java with Maven, Selenium and TestNG.
 
-### Running the project
-Steps are listed below to get this project up and running in your development environment.
+- Basic knowledge of **Java**, **Maven**, **Selenium**, and **TestNG**.
 
-* Setup Java with JDK 1.8. For reference: Use this official [Tutorial](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm)
+### Running the Project
 
-* Setup Maven. Follow this link: [Maven Setup](https://maven.apache.org/install.html)
+1. **Install Java** (JDK 1.8) using [this guide](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
+2. **Setup Maven** by following this [installation guide](https://maven.apache.org/install.html).
+3. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Adityapatel-dev/Selenium-projects.git
+    ```
+4. Open the project in **Eclipse** by selecting “File -> Import -> Maven -> Existing Maven Project.”
+5. If "Maven Dependencies" are missing, run:
+    ```bash
+    mvn clean install
+    ```
+6. After making changes, package the code:
+    ```bash
+    mvn clean package
+    ```
 
-* Clone this repository in your target folder.
-```
-git clone https://github.com/lavatech321/AutomationExcerise_selenium_automation.git
-```
+7. Run the project using:
+    ```bash
+    mvn clean test
+    ```
 
-* Open _automationexcerise.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _automationexcerise.testautomation_ folder. 
-  
-* Optionally, run maven build command if you don't see "Maven Dependencies" folder:
+Alternatively, you can run it as a **TestNG Suite** in **Eclipse**.
 
-```
-mvn clean install
-```
+### Authors
 
-You can also right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
-
-* After making any changes to the repository, you can package the code into a jar file:
-  
-```
-mvn clean package
-```
-  
-_Note: I have used JAR for packaging. If you want to build into the jar file, change the `<packaging>` inside pom.xml file to war._
-
-```
- <packaging>jar</packaging>
-```
-
-* You can run this project using below mvn command:
-  
-```
-mvn clean test
-```
-
-Congrats !!! You are now able to run the project in your own development environment.
-
-* You can run this project as _TestNG Suite_ by right clicking the project and select "Run As -> TestNG Suite".
-
-_Note: I have place *testng.xml* file under src/test/resources folder._
-
-## Authors
-
-* **Lavatech Technology** - *Initial work* - [Yogita Soni](https://github.com/lavatech321)
+- **Aditya Lalitkumar Patel** - [GitHub](https://github.com/Adityapatel-dev)
 
 ## Contact
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/lavatech-technology-81aa6a14b/
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555  
+[linkedin-url]: https://www.linkedin.com/in/adityapatel98/
